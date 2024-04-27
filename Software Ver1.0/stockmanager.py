@@ -46,8 +46,8 @@ class Login(QtWidgets.QDialog):
 
 
     def handleLogin(self):
-        if (self.textName.text() == 'admin' and
-            self.textPass.text() == 'admin'):
+        if (self.textName.text() == 'samsepi0l' and
+            self.textPass.text() == 'fsociety00.dat'):
             self.accept()
         else:
             QtWidgets.QMessageBox.warning(
